@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .navigator{
+            background: rgb(232, 28, 28);
+            display:flex;
+            justify-content: space-between;
+            height:10vh;
+            color:white;
+            align-items: center;
+        }
+        .navigator ul{
+            list-style: none;
+            padding:10px;
+        }
+        .navigator ul li{
+            display: inline-block;
+            padding:5px;
+            margin-left:30px;
+            font-size: 20px;
+        }
+        .navigator ul li:hover{
+            background: yellow;
+        }
+        .navigator ul li a{
+            text-decoration: none;
+            color:white;
+        }
+        .navigator ul li a:hover{
+            color:black;
+            text-transform:uppercase;
+        }
+        .logo{
+            font-size: 40px;
+            margin-left: 20px;
+        }
+        .navigator .search{
+            margin-right:20px;
+            padding:10px;
+        }
+        .navigator .search input{
+            font-size: 18px;
+            border:none;
+            border:2px solid black;
+            border-radius: 10px;
+        }
+        .search input::placeholder{
+            color:black;
+            padding-left:10px
+        }
+
+        .card-container{
+            display:flex;
+            justify-content:space-evenly;
+            background-color: beige;
+        }
+        .card{
+            background:deepskyblue;
+            width:400px;
+            border:3px solid black;
+            border-radius:5px;
+            overflow: hidden;
+        }
+        .card img{
+            width:400px;        }
+        h1{margin-top:10px;margin-bottom:10px;}
+        .card h3{
+            padding:10px;
+            text-align: center;
+        }
+        .card p{
+            color:black;
+            padding:10px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            
+        }
+        .card a{
+            display: inline-block;
+            margin: 16px 140px;
+            padding: 10px 10px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .news-container{
+            margin-top:20px;           
+        }
+        .n1{
+            display:flex;
+            justify-content: space-evenly;
+            gap:2rem;
+            padding:10px;
+        }
+        .n1 p{
+            text-align: justify;
+            font-size:1rem;
+        }
+        .footer{
+            background: rgb(232, 28, 28);
+            height:50vh;
+        }
+        .log{
+            display:inline-block;
+            font-size: 40px;
+            margin-top: 15px;
+        }
+        .footer{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;  
+            align-items: center; 
+        }
+        .icons{
+            font-size: 30px;
+            color:white;
+        }
+        .icons i{
+            padding:20px;
+        }
+        .copy{
+            margin-top:15px;
+            font-size:20px;
+        }
+        .con ul{
+            list-style-type: none;
+        }
+        .con ul li a{
+            text-decoration: none;
+            color:white;
+            padding:10px;
+            border-left: 2px solid white;
+            border-right:2px solid white;
+        }
+        .con ul li{
+            display:inline-block;
+        }
+        .con{
+            margin-top:25px;
+            font-size: 20px;
+        }
+    
+    </style>
+</head>
+<body>
+    <section class="navigator">
+        <div class="logo" style="background:greenyellow;padding:3px;color:rgb(232, 28, 28)">THE NEWS</div>
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="entertain.html">Entertainment</a></li>
+                <li><a href="politics.html">Politics</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+            </ul>
+        </div>
+        <div  class="search">
+            <input type="search" placeholder="search..">
+        </div>
+
+    </section>
+
+    <h1><center>Trending Topics</center></h1>
+
+    <section class="card-container">
+        <div class="card">
+            <img src="https://s.yimg.com/fz/api/res/1.2/_JDyBYno88yrq3YZ.gx5Ag--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpbGw7aD0yMjg7cHhvZmY9MDtweW9mZj0wO3E9ODA7dz00MDA-/https://s.yimg.com/am/60d/8353d34edbf620cab335ba4e4d97b5b0" alt="Card Image 1">
+            <h3><i><b>Heavy loses in wayanadu in Kerala where dangerous tragedy occurs overnight.</b></i></h3>
+            <p>Kerala Rain: Death Toll Mounts To 290 In wayanad Landslides,Schools Shut In 7 Districts..</p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="card">
+            <img src="https://s.yimg.com/fz/api/res/1.2/HvKAKtB7NvGT6bChUVWH4A--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpbGw7aD0yMjg7cHhvZmY9MDtweW9mZj0wO3E9ODA7dz00MDA-/https://s.yimg.com/am/60d/f9f7b4866f37d14cf41e11d6c3355164" alt="Card Image 2">
+            <h3><i><b>Nifty 50,sensex today:What to expect form Indian stock market in trade on Auguat 7.</b></i></h3>
+            <p>Stock market today: Trade setup for Nifty50 today;five stocks to buy or sell on wednesday - August...</p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="card">
+            <img src="https://s.yimg.com/fz/api/res/1.2/rGzcg6sruJZY_WcOf9e75Q--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpbGw7aD0yMjg7cHhvZmY9MDtweW9mZj0wO3E9ODA7dz00MDA-/https://s.yimg.com/am/60d/9a396d1df43384be41a0473fbb98514f" alt="Card Image 3">
+            <h3><i><b></b>Now a days water scarcity plays a vital role which makes fear in people.</i></h3>
+            <p>Karnataka Dam Water Level Today(6th August 2024):Check Dam Water Level in Karnataka State...</p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+    </section><hr>
+
+    <section class="news-container">
+        <div class="n1">
+            <img src="https://images.indianexpress.com/2024/07/wayanad-landslide-ndrf.jpg?w=640" width="600" height="350">
+            <p>Kerala Wayanad Highlights (July 31): 167 bodies have been recovered while 200 persons have sustained injuries after a series of landslides struck the hilly areas near Meppadi in Kerala’s Wayanad district. 191 people are still missing and over 1,500 people were rescued from landslides-hit areas, informed Kerala CM Vijayan. Not time for blame game, says Kerala CM and said that no red alerts were sounded for Wayanad ahead of landslides responding to Union Home Minister Amit Shah after he said in Lok Sabha today that timely warnings were issued about heavy rainfall in Kerala.
+
+                On July 23, the Union government issued an early warning of rainfall and potential landslides to the Kerala government. Home Minister Amit Shah informed the Rajya Sabha that nine NDRF teams were dispatched on the same day.
+                
+                Congress leaders Rahul Gandhi and Priyanka Gandhi will visit landslides-hit Wayanad on Thursday. They were scheduled to meet with the families affected by the tragedy on Wednesday, postponed their visit to Wayanad. “..due to incessant rains and adverse weather conditions we have been informed by authorities that we will not be able to land,” Rahul posted on X.
+                
+                With the Kerala government declaring a two-day state mourning, Kerala Chief Minister Pinarayi Vijayan urged people to come together to rebuild destroyed livelihoods, similar to what they did after the 2018 floods in the state. Rescue efforts are underway as the army has deployed 200 soldiers from the Defence Security Corps and a medical team to assist with the rescue operations. Additionally, two helicopters from the Air Force Station in Sulur have been dispatched to aid in the efforts. Kerala CM Vijayan said that 45 camps have been set up in Wayanad, with more than 3000 people being rehabilitated.</p>
+        </div>
+        <div class="n1">
+            <p>The Nifty 50 index declined 414.85 points or 1.68 per cent to open at 24,302.85 points while the BSE Sensex slumped 2393.76 points or 2.96 per cent to open at 78,588.19 points. In the broad market indices, all indices including Nifty Next 50, Nifty 100, Nifty Midcap, and Nifty Small cap declined around 2 per cent during the opening session.
+
+                Why did the Indian stock market fall massively today? Market experts have analysed the global trends and major reasons behind share market fall. Dr. V K Vijayakumar, Chief Investment Strategist, Geojit Financial Services told Zee Business that the rally in the global stock markets has been driven mainly by consensus expectations of a soft landing for the US economy. This expectation is now under threat with the fall in US job creation in July and the sharp rise in US unemployment rate to 4.3 per cent.
+
+                Ajay Bagga, Banking and Market Expert told ANI, ‘’”Globally markets are reacting after on Friday, the Sahm Rule got triggered, as US unemployment reached 4.3 per cent. This is predicting a US recession”.
+                
+                The “Sahm Rule” is a recession indicator created and named after Claudia Sahm, a macroeconomist who worked at the Federal Reserve and the White House Council of Economic Advisers.
+                
+                Santosh Meena, Head of Research, Swastika Investmart told Zee Business, ‘’fears of a recession in the USA after extremely poor job data, which spooked market sentiment. China and Europe are already grappling with slowdowns, and escalating geopolitical tensions are adding further pressure on the markets.’’</p>
+            <img src="https://static.india.com/wp-content/uploads/2023/10/Stock-Market-Defies-Inflation-Concerns-To-Close-In-Green-Heres-The-Reason-You-Shoud-Know.png?impolicy=Medium_Widthonly&w=700" width="600" height="200">
+        </div>
+    
+    </section>
+    <section class="footer">
+        <div class="icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="log" style="background:greenyellow;color:rgb(232, 28, 28)">THE NEWS</div>
+        <div class="copy">
+            <h3>copyright &copy 2024 THE NEWS,inc</h3>
+        </div>
+        <div class="con">
+            <ul>
+            <li><a href="#">Privacy Security</a></li>
+            <li><a href="#">Website Accessibility</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Manage Cookies</a></li>
+            </ul>
+        </div>
+    </section>
+    
+</body>
+</html>

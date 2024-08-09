@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .navigator{
+            background: rgb(232, 28, 28);
+            display:flex;
+            justify-content: space-between;
+            height:10vh;
+            color:white;
+            align-items: center;
+        }
+        .navigator ul{
+            list-style: none;
+            padding:10px;
+        }
+        .navigator ul li{
+            display: inline-block;
+            padding:5px;
+            margin-left:30px;
+            font-size: 20px;
+        }
+        .navigator ul li:hover{
+            background: yellow;
+        }
+        .navigator ul li a{
+            text-decoration: none;
+            color:white;
+        }
+        .navigator ul li a:hover{
+            color:black;
+            text-transform:uppercase;
+        }
+        .logo{
+            font-size: 40px;
+            margin-left: 20px;
+        }
+        .navigator .search{
+            margin-right:20px;
+            padding:10px;
+        }
+        .navigator .search input{
+            font-size: 18px;
+            border:none;
+            border:2px solid black;
+            border-radius: 10px;
+        }
+        .search input::placeholder{
+            color:black;
+            padding-left:10px
+        }
+        .bre-container{
+            border:2px solid black;
+            display:flex;
+            flex-direction: column;
+            width:550px;
+            height:550px;
+            border-radius: 10px;
+            justify-content: center;
+            padding:20px;
+        }
+        .bre-container h1{margin-bottom: 5px;font-size:35px;}
+        .bre-container {margin-bottom:5px;}
+        .contain{
+            display:flex;
+            justify-content: space-around;
+        }
+        .contain .image img{
+            width:300px;
+            height:550px;
+            padding:10px;
+            border-radius: 20px;
+        }
+        .flashnews marquee{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background: bisque;
+        }
+        .vinesh{
+            text-align: justify;
+            text-indent: 2rem;
+            font-size: 1.1rem;
+        
+        }
+        .content{
+            padding:20px;
+            margin-bottom:20px;
+            border-bottom:2px solid black;
+            margin-left:10px;
+            margin-right: 10px;           
+        }
+        .vinesh::first-letter{
+            font-size: 2rem;
+            font-weight: bold;
+            color:red;
+        }
+        .olyhead h1{
+            font-size:30px;
+            margin-left: 15px;
+        }
+        .event img{
+            width:100%;
+            height:200px;
+            border-radius: 8px;
+        }
+        .olympics{
+            display:flex;
+            justify-content: space-evenly;
+            margin:20px;
+        }
+        .event{
+            width:400px;
+            background: pink;
+            padding:10px;
+        }
+        .event h1,h3{text-align: justify;margin-bottom: 5px;margin-top: 5px;}
+        .event h1{font-style: italic;}
+    </style>
+</head>
+<body>
+    <section class="navigator">
+        <div class="logo" style="background:greenyellow">THE NEWS</div>
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="entertain.html">Entertainment</a></li>
+                <li><a href="politics.html">Politics</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+            </ul>
+        </div>
+        <div  class="search">
+            <input type="search" placeholder="search..">
+        </div>
+    </section>
+    <section class="flashnews">
+        <marquee direction="left"><h1>Breaking news! Vinesh assured of Medal in Olymipics conducted in Paris 2024 in the sport 0f <b>Wrestling</b> reached Finals</b> </h1></marquee>
+        <div class="contain">
+            <div class="image"><img src="https://tse3.mm.bing.net/th?id=OIP.4K8b4rrbLodRm1PMlH9cvAHaJ3&pid=Api&P=0&h=180"></div>
+            <div class="bre-container">
+                <h1>Vinesh Phogat assured of medal, 1st Indian woman into Olympic wrestling final</h1>
+                <h3>Olympics: Vinesh Phogat became the first ever Indian woman to reach the wrestling finals in the Olympics. Vinesh beat Cuba's Lopez Guzman to ensure a medal for her in Paris.</h3>
+                <img src="https://im.rediff.com/sports/2020/jan/18vinesh.jpg?w=670&h=900">
+            </div>
+            <div class="image"><img src="https://images.news18.com/ibnlive/uploads/2018/08/Vinesh-Phogat-5.jpg?impolicy=website&width=0&height=0"></div>
+        </div>
+        <div class="content">
+        <p class="vinesh">Vinesh Phogat was found to be around 100 grams over the permissible weight on the second day of the weigh-ins, which led to her being disqualified. It must be noted that she was under the limit on the first day. Meanwhile Yusneylis Guzman Lopez, who Vinesh Phogat beat in the semi-final, was asked to compete for the gold against Sarah Hildebrandt. In the final, Hildebrandt defeated the Cuban wrestler 3-0 to claim gold, while Guzman Lopez claimed silver.
+
+            While there were concerns about Vinesh Phogat’s health condition, the Indian Olympic Association had posted a photograph of Vinesh Phogat from the medical clinic at the Games Village.
+            
+            All through the day yesterday, reactions have been pouring for the devastating news, with Prime Minister Narendra Modi calling Vinesh Phogat a “champion among champions”. “Wish words could express the sense of despair that I am experiencing,” he said on X. Meanwhile, Rio Olympics bronze medallist Sakshi Malik, who was also one of the faces of the wrestlers protest with Vinesh Phogat, has reacted to the news saying: “If it was possible, I would have given my medal to Vinesh.” Tokyo Olympics medallist Bajrang Punia said: “The whole country is unable to hold back its tears.” Former world champion Nikhat Zareen, who is herself nursing the heartbreak of missing out on an Olympic medal which everyone expected her to win, said that “seeing what Vinesh is going through makes my pain seem insignificant.”</p>
+        </div>
+        <div class="olyhead"><h1>OLYMICS IN PARIES 2024:</h1></div>
+        <section class="olympics">
+            <div class="event">
+                <img src="https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0808%2Fr1370375_1296x729_16%2D9.jpg&w=1140&cquality=40&format=jpg">
+                <h1>Indian Hockey Wins Bronze in Paris Olympics 2024.</h1>
+                <h3>The Indian hockey team didn't play well in their Paris 2024 opener against New Zealand but got the victory in the end thanks to captain Harmanpreet Singh. The performance became worse in the second match against Argentina. They trailed for almost three quarters and once again had to wait till the final minute to equalise. It was Harmanpreet again who scored the goal from a penalty corner.</h3>
+            </div>
+            <div class="event">
+                <img src="https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0806%2Fr1369258_1296x729_16%2D9.jpg&w=476&h=266&scale=crop&cquality=40&location=center">
+                <h1>India's Pride NEERAJ CHOPRA Moved to Finals In Olympics 2024.</h1>
+                <h3>It's a big day for India at the Paris Olympics 2024. Neeraj Chopra, the reigning world and Olympic champion, will be in action in the javelin throw final on Thursday.
+
+                    Neeraj qualified for the final after just one throw - 89.34m and it was the best throw of the qualification. He's expected to get strong competition from the likes of Arshad Nadeem, Anderson Peters and Jakub Vadlejch.</h3></div>
+            <div class="event">
+                <img src="https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0808%2Fr1370306_1296x729_16%2D9.jpg&w=476&h=266&scale=crop&cquality=40&location=center">
+                <h1>Aman Loses In Paris Olympics 2024 And Wons Bronze In 57kg Category.</h1>
+                <h3>Aman Sehrawat will hope to win India's first wrestling medal at the Paris 2024 as he's in action in the bronze medal match in the men's 57kg category.
+
+                    Aman was outstanding in his opening two bouts on Thursday, winning both with technical superiority. However, he lost the semifinal against Japan's Rei Higuchi.</h3>
+                
+            </div>
+            
+        </section>
+        
+        
+
+    </section>
+</body>
+</html>

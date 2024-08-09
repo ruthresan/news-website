@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .navigator{
+            background: rgb(232, 28, 28);
+            display:flex;
+            justify-content: space-between;
+            height:10vh;
+            color:white;
+            align-items: center;
+        }
+        .navigator ul{
+            list-style: none;
+            padding:10px;
+        }
+        .navigator ul li{
+            display: inline-block;
+            padding:5px;
+            margin-left:30px;
+            font-size: 20px;
+        }
+        .navigator ul li:hover{
+            background: yellow;
+        }
+        .navigator ul li a{
+            text-decoration: none;
+            color:white;
+        }
+        .navigator ul li a:hover{
+            color:black;
+            text-transform:uppercase;
+        }
+        .logo{
+            font-size: 40px;
+            margin-left: 20px;
+        }
+        .navigator .search{
+            margin-right:20px;
+            padding:10px;
+        }
+        .navigator .search input{
+            font-size: 18px;
+            border:none;
+            border:2px solid black;
+            border-radius: 10px;
+        }
+        .search input::placeholder{
+            color:black;
+            padding-left:10px
+        }
+        .container{
+            display:flex;
+            justify-content: space-evenly;
+            margin-top:10px;
+            margin-bottom:30px;
+            border-bottom: 5px solid red;
+            padding:10px;
+        }
+        .container .card{
+            width:400px;
+            padding:10px;
+            background: bisque;
+        }
+        .container .card img{width:100%;height:300px;border-radius:10px 0}
+        .container .card h3{text-align: justify;}
+        .content1{
+            padding:15px;
+        }
+        .content1 h1{
+            font-size: 40px;}
+        .content1 h2{border-bottom: 10px;}
+        .content1 p{font-size: 1.1rem; text-indent: 15px;}
+    </style>
+</head>
+<body>
+    <section class="navigator">
+        <div class="logo" style="background:greenyellow">THE NEWS</div>
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="entertain.html">Entertainment</a></li>
+                <li><a href="politics.html">Politics</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+            </ul>
+        </div>
+        <div  class="search">
+            <input type="search" placeholder="search..">
+        </div>
+
+    </section>
+    <div><h1 style="margin:20px;"><center>Entertainment Of The Day</center></h1></div>
+    <section class="container">
+        <div class="card">
+            <img src="https://pbs.twimg.com/media/GUcX6_PXgAAjs24?format=jpg&name=small">
+            <h3>Its' official! Naga Chaitanya and Sobhita Dhulipala are a couple. The two got engaged at the latter's Hyderabad residence today. Superstar Nagarjuna, father of the groom-to-be took to social media to share first pictures and welcome Sobhita to the family. </h3>
+        </div>
+        <div class="card">
+            <img src="https://images.mid-day.com/images/images/2024/aug/akshay-haji-ali-dargah_d.jpg">
+            <h3>Actor Akshay Kumar is currently gearing up for the release of his film 'Khel Khel Mein'. The film will host the theatres on August 15 and the actor has been busy with the promotions of the film. Amid his hectic schedule, he took time off to visit Haji Ali dargah in Mumbai. He not just visited the holy shrine but also made a generous donation of Rs 1.21 crore for the renovation work of the dargah. Photos of the actor visiting the site has also surfaced on social media. </h3>
+        </div>
+        <div class="card">
+            <img src="https://images.mid-day.com/images/images/2024/aug/fahadh-faasil-thres_d.jpg">
+            <h3>Malayalam superstar Fahadh Faasil, who was recently seen in 'Aavesham', is celebrating his birthday on Thursday, and the makers of his upcoming movie 'Pushpa 2: The Rule' have shared a poster from the film to mark the occasion. </h3>
+        </div>
+    </section>
+    <section class="content1">
+        <h1>Shocking! BTS Suga caught drunk riding electric scooter, license revoked, apologises to fans.</h1>
+        <img src="https://images.mid-day.com/images/images/2024/aug/yoongi-drunk_d.jpg">
+        <h2>BTS Suga, aka Min Yoongi, has penned down a long note to apologize for his involvement in a drink-and-drive incident. Suga took to Weverse on Wednesday morning and penned down a long apology note stating that he was drunk when he was returning home on his electric scooter.</h2>
+        <p>In his note, he stated that he violated traffic laws, and after the police officer caught him and did a breathalyzer test, his license was revoked and he was fined. Suga, in his note, shared (as translated by a fan account on X), "Hello, this is Suga. It is with a heavy, sorry heart that I come to you in light of a shameful incident. Last night, after having a meal that was accompanied by drinks, I rode an electric scooter to return home. I was being too lax, since I only had a short way to go, and I didn't recognise the fact that I shouldn't be riding an electric scooter while inebriated. As a result, I violated road transport regulations.In conclusion, Suga apologized for his carelessness and wrong actions and said, "I bow my head and give everyone my deepest apologies. I apologise to everyone affected by my poor, careless behaviour, and will be extremely mindful of my actions in the future so as to avoid such incidents happening again."</p>
+
+</body>
+</html>
